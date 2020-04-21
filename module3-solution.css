@@ -1,0 +1,59 @@
+.navbar-brand h1
+{
+	color: black;
+	text-decoration: none;
+}
+#header-nav
+{
+	border:5px solid black;
+	background-color: grey;
+}
+#menu
+{
+	margin-top: 60px;
+}
+#menu div
+{
+	
+	background-color: grey;
+	margin:30px;
+	
+	font-weight:bold;
+}
+#menu h1
+{
+	padding-top: 5px;
+}
+#menu p
+{
+	padding: 4px 20px 20px 20px;
+}
+
+.navbar-nav
+{
+	border: 1px solid black;
+}
+div li
+{
+	border: 3px solid black;
+	font-size: 20px;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size:7vw; /* 1vw = 1% of viewport width */
+  }
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.text-center
+{
+ color: black;
+}
